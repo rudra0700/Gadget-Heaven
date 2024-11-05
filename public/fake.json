@@ -1,0 +1,359 @@
+[
+    {
+        "product_id": 1,
+        "product_title": "Apple iPhone 15 Pro Max",
+        "product_img": "https://i.ibb.co.com/gZVRh0B/iphone-15-pro-max.webp",
+        "category": "Smartphones",
+        "price": 1299,
+        "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max",
+        "specification": [
+            "6.7 inch Super Retina XDR display",
+            "A17 Bionic Chip",
+            "Triple Camera System (48MP Main, 12MP Telephoto, 12MP UltraWide)",
+            "LiDAR Scanner",
+            "Up to 2TB storage"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 2,
+        "product_title": "Samsung Galaxy S23 Ultra",
+        "product_img": "https://i.ibb.co.com/F4TGSs5/samsung-galaxy-s23-ultra.webp",
+        "category": "Smartphones",
+        "price": 1199,
+        "description": "The most advanced Galaxy phone ever with pro-grade camera capabilities",
+        "specification": [
+            "6.8 inch Dynamic AMOLED 2X display",
+            "Snapdragon 8 Gen 2",
+            "200MP Quad Camera System",
+            "Up to 1TB storage",
+            "5,000 mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": 3,
+        "product_title": "MacBook Pro 16-inch",
+        "product_img": "https://i.ibb.co.com/nczxNzC/macbook-pro-16inch.webp",
+        "category": "MacBook",
+        "price": 2499,
+        "description": "Powerful performance with the latest Apple M2 Pro chip",
+        "specification": [
+            "16-inch Liquid Retina XDR display",
+            "M2 Pro Chip",
+            "Up to 64GB RAM",
+            "Up to 8TB SSD",
+            "Thunderbolt 4 ports"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": 4,
+        "product_title": "Dell XPS 15",
+        "product_img": "https://i.ibb.co.com/qpytBks/dell-xps-15.jpg",
+        "category": "Laptops",
+        "price": 1799,
+        "description": "A high-performance laptop for creatives and professionals",
+        "specification": [
+            "15.6 inch OLED 3.5K display",
+            "Intel Core i9 13th Gen",
+            "NVIDIA GeForce RTX 4060",
+            "Up to 64GB RAM",
+            "Up to 4TB SSD"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": 5,
+        "product_title": "Apple Watch Series 9",
+        "product_img": "https://i.ibb.co.com/rKB3PcQ/apple-watch-series-9.jpg",
+        "category": "Smartwatches",
+        "price": 499,
+        "description": "The newest Apple Watch with advanced health tracking",
+        "specification": [
+            "Always-on Retina display",
+            "Heart rate monitoring",
+            "Blood Oxygen app",
+            "Water resistant to 50 meters",
+            "Up to 18 hours of battery life"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": 6,
+        "product_title": "Samsung Galaxy Watch 6",
+        "product_img": "https://i.ibb.co.com/P4X6LRJ/samsung-galaxy-watch-6.webp",
+        "category": "Smartwatches",
+        "price": 399,
+        "description": "Track your fitness and health with the Galaxy Watch 6",
+        "specification": [
+            "1.4 inch AMOLED display",
+            "Advanced sleep tracking",
+            "Built-in GPS",
+            "Waterproof up to 5ATM",
+            "ECG monitoring"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": 7,
+        "product_title": "Apple iPhone SE 2023",
+        "product_img": "https://i.ibb.co.com/vDpjLMg/apple-iphone-SE-4.jpg",
+        "category": "iPhone",
+        "price": 499,
+        "description": "Compact design with powerful performance",
+        "specification": [
+            "4.7 inch Retina HD display",
+            "A15 Bionic Chip",
+            "Single 12MP wide camera",
+            "Up to 256GB storage",
+            "Touch ID"
+        ],
+        "availability": true,
+        "rating": 4.2
+    },
+    {
+        "product_id": 8,
+        "product_title": "Logitech MX Master 3S",
+        "product_img": "https://i.ibb.co.com/ss6ZsZN/logitech-MX-master-3s.jpg",
+        "category": "Accessories",
+        "price": 99,
+        "description": "Advanced ergonomic mouse with customizable features",
+        "specification": [
+            "8000 DPI sensor",
+            "USB-C quick charging",
+            "Ultra-fast MagSpeed scrolling",
+            "Multi-device and multi-OS compatibility",
+            "Up to 70 days of battery life"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 9,
+        "product_title": "Logitech MX Master 3S",
+        "product_img": "https://i.ibb.co.com/ss6ZsZN/logitech-MX-master-3s.jpg",
+        "category": "Accessories",
+        "price": 99,
+        "description": "Advanced ergonomic mouse with customizable features",
+        "specification": [
+            "8000 DPI sensor",
+            "USB-C quick charging",
+            "Ultra-fast MagSpeed scrolling",
+            "Multi-device and multi-OS compatibility",
+            "Up to 70 days of battery life"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 10,
+        "product_title": "Sony WH-1000XM5",
+        "product_img": "https://i.ibb.co.com/Wgq9RYh/Sony-WH-1000-XM5.webp",
+        "category": "Accessories",
+        "price": 349,
+        "description": "Industry-leading noise cancellation headphones",
+        "specification": [
+            "30 hours of battery life",
+            "Quick charging (3 hours with 3 mins charge)",
+            "High-resolution audio",
+            "Touch controls",
+            "Multi-device pairing"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": 11,
+        "product_title": "HP Spectre x360 14",
+        "product_img": "https://i.ibb.co.com/XpKL6L0/HP-Spectre-x360-14.jpg",
+        "category": "Laptops",
+        "price": 1599,
+        "description": "A versatile 2-in-1 laptop with excellent display quality",
+        "specification": [
+            "13.5 inch OLED touch display",
+            "Intel Core i7 12th Gen",
+            "Up to 16GB RAM",
+            "1TB SSD storage",
+            "Convertible design"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": 12,
+        "product_title": "Apple MacBook Air M2",
+        "product_img": "https://i.ibb.co.com/2sGt8vr/Apple-Mac-Book-Air-M2.jpg",
+        "category": "MacBook",
+        "price": 1199,
+        "description": "Lightweight laptop with powerful M2 performance",
+        "specification": [
+            "13.6 inch Liquid Retina display",
+            "M2 Chip",
+            "Up to 24GB RAM",
+            "Up to 2TB SSD",
+            "Fanless design"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": 13,
+        "product_title": "Google Pixel 8 Pro",
+        "product_img": "https://i.ibb.co.com/qxkFSqS/Google-Pixel-8-Pro.jpg",
+        "category": "Smartphones",
+        "price": 999,
+        "description": "Pixel's most advanced phone with enhanced AI features",
+        "specification": [
+            "6.7 inch LTPO OLED display",
+            "Google Tensor G3 chip",
+            "Triple rear camera (50MP wide, 48MP telephoto, 12MP ultra-wide)",
+            "Titan M2 security chip",
+            "Wireless charging"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": 14,
+        "product_title": "Fitbit Charge 6",
+        "product_img": "https://i.ibb.co.com/TPKdsZr/Fitbit-Charge-6.webp",
+        "category": "Smartwatches",
+        "price": 179,
+        "description": "Affordable fitness tracker with heart rate and sleep monitoring",
+        "specification": [
+            "1.04 inch OLED display",
+            "24/7 heart rate tracking",
+            "Built-in GPS",
+            "7 days of battery life",
+            "Swimproof"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": 15,
+        "product_title": "Apple iPhone 14 Pro",
+        "product_img": "https://i.ibb.co.com/GcygSnQ/Apple-i-Phone-14-Pro.jpg",
+        "category": "iPhone",
+        "price": 1099,
+        "description": "Experience advanced performance with iPhone 14 Pro",
+        "specification": [
+            "6.1 inch Super Retina XDR display",
+            "A16 Bionic Chip",
+            "Triple camera system with 48MP main sensor",
+            "Dynamic Island",
+            "Up to 1TB storage"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 16,
+        "product_title": "Microsoft Surface Laptop 5",
+        "product_img": "https://i.ibb.co.com/T0KZXTY/Microsoft-Surface-Laptop-5.jpg",
+        "category": "Laptops",
+        "price": 1299,
+        "description": "Stylish, ultra-thin laptop with great performance",
+        "specification": [
+            "13.5 inch PixelSense touchscreen",
+            "Intel Core i7 12th Gen",
+            "Up to 32GB RAM",
+            "1TB SSD",
+            "Windows 11"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": 17,
+        "product_title": "Jabra Elite 85t",
+        "product_img": "https://i.ibb.co.com/wNKYNgV/Jabra-Elite-85t.jpg",
+        "category": "Accessories",
+        "price": 229,
+        "description": "Advanced true wireless earbuds with noise cancellation",
+        "specification": [
+            "Active noise cancellation",
+            "12mm speakers",
+            "Up to 25 hours of battery with charging case",
+            "Wireless charging",
+            "IPX4 water resistance"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": 18,
+        "product_title": "Apple iPad Pro 12.9",
+        "product_img": "https://i.ibb.co.com/RyNh6xn/Apple-i-Pad-Pro-12-9.webp",
+        "category": "Accessories",
+        "price": 1399,
+        "description": "Ultimate iPad with desktop-like performance",
+        "specification": [
+            "12.9 inch Liquid Retina XDR display",
+            "M2 Chip",
+            "Supports Apple Pencil 2nd generation",
+            "Up to 2TB storage",
+            "5G connectivity"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": 19,
+        "product_title": "ASUS ROG Zephyrus G14",
+        "product_img": "https://i.ibb.co.com/Fz4dRfB/ASUS-ROG-Zephyrus-G14.jpg",
+        "category": "Laptops",
+        "price": 1799,
+        "description": "Compact gaming laptop with powerful performance",
+        "specification": [
+            "14 inch QHD display",
+            "AMD Ryzen 9",
+            "NVIDIA GeForce RTX 4070",
+            "16GB RAM",
+            "1TB SSD"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": 20,
+        "product_title": "Samsung Galaxy Buds 2 Pro",
+        "product_img": "https://i.ibb.co.com/LQfPyZJ/Samsung-Galaxy-Buds-2-Pro.webp",
+        "category": "Accessories",
+        "price": 229,
+        "description": "Experience studio-quality sound with Galaxy Buds 2 Pro",
+        "specification": [
+            "Active noise cancellation",
+            "Hi-Fi sound",
+            "Up to 29 hours of battery life with case",
+            "Water-resistant (IPX7)",
+            "Compact design"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": 21,
+        "product_title": "Lenovo Yoga 9i",
+        "product_img": "",
+        "category": "Laptops",
+        "price": 1599,
+        "description": "A 2-in-1 laptop with elegant design and versatile performance",
+        "specification": [
+            "14 inch 4K OLED touchscreen",
+            "Intel Core i7 13th Gen",
+            "16GB RAM",
+            "1TB SSD",
+            "360-degree hinge"
+        ],
+        "availability": true,
+        "rating": 4.7
+    }
+]
