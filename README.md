@@ -1,8 +1,29 @@
-# React + Vite
+# Project Name : Gadget Heaven.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Description:
 
-Currently, two official plugins are available:
+ This SPA (single page application) provides information about different kinds of gadeget you can choose from.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ # Technology:
+
+ - React
+ - React-router
+ - React-toastify
+ - React-icons
+ - Tailwind Css
+ - Daysi UI (css component library)
+
+ # Some key feature :
+  - Different Dynamic navbar according to different router
+  - Show category wise data
+  - Show specific card details
+  - Added "Add" and "Delete" functionality
+  - Use localstorage to save data
+  - Sort card in desecending order based on price
+ 
+ # Github Link: 
+  https://github.com/rudra0700/Gadget-Heaven
+
+ # Live link: 
+
+
