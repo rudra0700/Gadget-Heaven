@@ -20,6 +20,14 @@
   - Added "Add" and "Delete" functionality
   - Use localstorage to save data
   - Sort card in desecending order based on price
+
+  # Handling and  managing data
+  - Using  Localstorage
+  
+
+  # Requirement Document Link
+
+  https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08-.pdf
  
  # Github Link: 
   https://github.com/rudra0700/Gadget-Heaven
