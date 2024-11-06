@@ -10,7 +10,7 @@ const CardDetails = () => {
     const {product_id} = useParams();
     const [card, setCard] = useState({});
     const {addPrice} = useContext(PriceContext)
-    const {deductedPrice} = useContext(PriceContext)
+  
   
     useEffect(() => {
         const singleProduct = [...data].find(card => card.product_id === parseInt(product_id));
@@ -25,7 +25,7 @@ const CardDetails = () => {
     const handlAddToCart = (card) => {
        addToCartList(card) ;
        addPrice(card.price)
-       deductedPrice(card.price)
+      
     }
 
     const handleWish = (card) => {
@@ -52,7 +52,7 @@ const CardDetails = () => {
                      <p className='font-semibold text-gray-500'>{description}</p>
                      <p className='font-semibold'>specification: </p>
                      <ol className='text-gray-500 mb-2'>
-                        {specification && specification.map((item,index) => <li>{<span className='font-semibold'>{index + 1} .</span>} {item}</li>)}
+                        {specification && specification.map((item,index) => <li>{<span className='font-semibold text-gray-700'>{index + 1} .</span>} {item}</li>)}
                      </ol>
                      <p className='font-semibold mb-3'>Rating</p>
                      <div className='flex gap-4'>

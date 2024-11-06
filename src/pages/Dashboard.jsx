@@ -15,9 +15,6 @@ const Dashboard = ({id}) => {
     const {totalPrice} = useContext(PriceContext)
     
 
-   
-    
-
     useEffect(() => {
         const storedList = getAddToCardList();
         setCards(storedList)
