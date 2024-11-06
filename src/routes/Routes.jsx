@@ -37,7 +37,8 @@ const router = createBrowserRouter([
             },
             {
                 path: '/dashboard',
-                element: <Dashboard></Dashboard>
+                element: <Dashboard></Dashboard>,
+
             },
 
             {
@@ -51,8 +52,6 @@ const router = createBrowserRouter([
                 loader: () => fetch('/fake.json')
 
             }
-           
-
            
         ]
     }, 
