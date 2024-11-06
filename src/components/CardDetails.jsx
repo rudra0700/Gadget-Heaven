@@ -1,13 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Link, useLoaderData, useParams } from 'react-router-dom';
 import { IoCartOutline } from "react-icons/io5";
 import { CiHeart } from "react-icons/ci";
 import { addToCartList, addToWishList, getAddToCardList} from '../utils/utilityDB';
+import { PriceContext } from '../layout/MainLayout';
 
 const CardDetails = () => {
     const data = useLoaderData();
     const {product_id} = useParams();
     const [card, setCard] = useState({});
+    const {addPrice} = useContext(PriceContext)
+    const {deductedPrice} = useContext(PriceContext)
   
     useEffect(() => {
         const singleProduct = [...data].find(card => card.product_id === parseInt(product_id));
@@ -21,8 +24,8 @@ const CardDetails = () => {
 
     const handlAddToCart = (card) => {
        addToCartList(card) ;
-     
-       
+       addPrice(card.price)
+       deductedPrice(card.price)
     }
 
     const handleWish = (card) => {

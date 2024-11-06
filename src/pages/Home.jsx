@@ -11,7 +11,7 @@ const Home = () => {
         <div>
            <Banner></Banner>
            <Heading></Heading>
-           <div className="flex gap-4 ">
+           <div className="flex gap-4 mt-12">
                 <Categories categories={categories}></Categories>
                 <Outlet></Outlet>
            </div>

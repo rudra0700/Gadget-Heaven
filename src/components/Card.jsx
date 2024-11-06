@@ -13,7 +13,7 @@ const Card = ({card}) => {
             </figure>
             <div className="card-body">
                 <h2 className="card-title">{product_title}</h2>
-                <p>Price : {price}$</p>
+                <p className='font-semibold'>Price : {price}$</p>
                 <div className="card-actions">
                 <Link className="btn rounded-full border-[#9538E2] text-[#9538E2]" to={`/card/${product_id}`}>View Details</Link>
                 </div>

@@ -164,6 +164,8 @@ const Navbar = () => {
          )
     }
 
+   
+
     return (
         <div className="navbar py-5 bg-[#9538E2] mt-5 px-5 rounded-tl-2xl rounded-tr-2xl">
         <div className="navbar-start">

@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { getAddToCardList, getFromWishList, removeFromCart, removeFromWishList } from "../utils/utilityDB";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import DashboardCard from "../components/DashboardCard";
+import { PriceContext } from "../layout/MainLayout";
 
 
 
@@ -10,6 +11,8 @@ import DashboardCard from "../components/DashboardCard";
 const Dashboard = ({id}) => {
     const [cards, setCards] = useState([]);
     const [wish, setWish] = useState([]);
+    const [type, setType] = useState('Cart');
+    const {totalPrice} = useContext(PriceContext)
     
 
    
@@ -59,15 +62,15 @@ const Dashboard = ({id}) => {
         </div>
 
         <div className="max-w-6xl mx-auto flex justify-between mt-6">
-            <h2 className="text-xl font-bold">Cart</h2>
+            <h2 className="text-xl font-bold">{type === "Cart" ? "Cart" : "Wish"}</h2>
             <div className="flex gap-6 items-baseline">
-                <h2 className="text-xl font-bold">Total Cost : </h2>
+                <h2 className="text-xl font-bold">Total Cost : ${totalPrice}</h2>
                 <button className="border border-[#9538E2] px-4 py-2 rounded-full font-semibold text-[#9538E2]" onClick={() => handlePriceSort("price")}>Sort By Price</button>
                 <button className="border border-[#9538E2] px-4 py-2 rounded-full font-semibold text-white bg-[#9538E2]">Purchase</button>
             </div>
         </div>
                
-        <Tabs className={`max-w-6xl mx-auto mt-4`}>
+        <Tabs className={`max-w-6xl mx-auto mt-4`} onSelect={(index) => setType(index === 0 ? "Cart" : "Wish")}>
             <TabList>
                 <Tab>Cart</Tab>
                 <Tab>Wish</Tab>

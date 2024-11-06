@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 
 const DashboardCard = ({card, handleRemoveFromCart, handleRemoveFromWishList}) => {
 
-
+    
     const handleDelete = () => {
         if (handleRemoveFromCart) {
             handleRemoveFromCart(product_id);
